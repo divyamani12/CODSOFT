@@ -1,0 +1,176 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    max-width: 40px;
+}
+.logo span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:black;
+}
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.link a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    transition: 0.3s;
+}
+.link a:hover {
+    color: red;
+}
+.nav__container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+    padding: 0.9rem 3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(247, 40, 150);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: pink;
+}
+#header {
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://png.pngtree.com/thumb_back/fw800/background/20230817/pngtree-top-50-of-korea-s-best-sunrise-images-image_13027253.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    
+    position: relative;
+    padding: 17rem 0 1rem 5rem;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: center;
+
+}
+.header__content {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 250px;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}  
+.header__content p {
+    font-size: 2rem;
+    color: rgb(153, 148, 148);
+}
+.header__content h1 {
+    color: white;
+}
+.con2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    width: 100px;
+}
+.travel{
+    height: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(160, 157, 157, 0.7);
+}
+.travel:hover{
+    background-color: rgb(200, 238, 246);
+}
+.travel img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.description {
+    padding: 1rem;
+}
+.description h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: purple;
+}
+.description p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: gray;
+}
+.description .btn {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(104, 235, 104);
+    cursor: pointer;
+}
+.description .btn:hover{
+    background-color: green;
+    color: white;
+}
+.explore {
+    background-image:   url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb-X5364VOTRY7CdQdafaKNSmtdMCkQOYqwemseE57YHq9uSp4hK9tff4U-z6uxuPXLjM&usqp=CAU");
+    height: 70%;
+    width: 300%;
+    top: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding-top: 50%;
+    padding-left: 50%;
+    padding-right: 50%;
+    color: black;
+}
+.explore span{
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color:transparent;
+}
+.more button {
+    background-color: rgb(185, 180, 180);
+    border: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.more button:hover {
+    background-color: #818080;
+    color: white;
+}
